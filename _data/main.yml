@@ -42,13 +42,13 @@ menu:
 # Social icons in the sidebar
 # use font awesome icon code in the 'icon:' value
 social:
-  facebook:
-       icon: fa-facebook-square
-       link: https://facebook.com
+#  facebook:
+#       icon: fa-facebook-square
+#       link: https://facebook.com
 
-  twitter:
-      icon: fa-twitter
-      link: https://twitter.com
+#  twitter:
+#      icon: fa-twitter
+#      link: https://twitter.com
 
   linkedin:
       icon: fa-linkedin
