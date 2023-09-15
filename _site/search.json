@@ -2,21 +2,21 @@
 
 {
 "category": "projects",
-"title": "Blackcurrant Jekyll Theme",
+"title": "What is data science",
 "description": "Image Credits: Fruit LayerCarol Calderon Portfolio is a Jekyll theme suitable...",
 "url": "/blog/blackcurrant/",
 "image": "/assets/images/blackcurrant.jpg",
-"author": "John Doe"
+"author": "Carol Calderon"
 }
 ,
 
 {
 "category": "work, projects",
-"title": "Designing a Flag",
-"description": "Learning is the act of acquiring new or modifying and reinforcing existing kn...",
+"title": "A mind for numbers",
+"description": "Learning is …Learn more about Barbara OackelyLearning …TitleSubtitleNoSubtitl...",
 "url": "/blog/designing-a-flag/",
 "image": "/assets/images/shubham-beeharry-223969.jpg",
-"author": "John Doe"
+"author": "Carol Calderon"
 }
 
 ,
@@ -24,7 +24,7 @@
 
 {
 "category": "",
-"title": "Design",
+"title": "My new project",
 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia erat e...",
 "url": "/projects/design/",
 "image": "/assets/images/etienne-girardet-360034-unsplash.jpg",

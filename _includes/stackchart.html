@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stacked Radar Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* Add a CSS rule to increase the font size of the labels */
+        #radarChart .scale label {
+            font-size: 50px; /* Adjust the font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 600px;">
+        <canvas id="radarChart"></canvas>
+    </div>
+
+    <script>
+        var ctx = document.getElementById('radarChart').getContext('2d');
+
+        var data = {
+            labels: ['Domain Knowledge', 'Statistics', 'Data Visualization', 'Programming', 'Communication', 'Databases', 'Machine Learning', 'Big Data'],
+            datasets: [
+                {
+                    label: 'Radar Skills',
+                    data: [9, 6, 9, 7, 8, 7, 4, 6],
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    borderWidth: 2
+                }
+            ]
+        };
+
+        var options = {
+            scale: {
+                angleLines: {
+                    display: true
+                },
+                ticks: {
+                    beginAtZero: true,
+                    max: 100,
+                    stepSize: 10,
+                    fontSize: 50 
+                }
+            }
+        };
+
+        var radarChart = new Chart(ctx, {
+            type: 'radar',
+            data: data,
+            options: options
+        });
+    </script>
+</body>
+</html>

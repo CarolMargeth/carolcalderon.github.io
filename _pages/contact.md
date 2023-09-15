@@ -15,7 +15,7 @@ I care about my readers' opinions. Please leave a note or just say hello.
     <input type="email" name="email" class="form-control" placeholder="Enter email">
   </div>
   <div class="form-group">
-    <label for="message">Example textarea</label>
+    <label for="message">Type your message here</label>
     <textarea class="form-control" name="content" id="" rows="3" placeholder="Enter your message"></textarea>
   </div>
   <input type="hidden" name="_next" value="{{site.url}}{{page.url}}">
@@ -30,6 +30,6 @@ I care about my readers' opinions. Please leave a note or just say hello.
 
 {% highlight html %}
 
-This form starts working once you update your email in configuration. Delete this line in the contact page found in the path _pages/contact.md
+“Great communication begins with connection.” Oprah Winfrey
 
 {% endhighlight %}
