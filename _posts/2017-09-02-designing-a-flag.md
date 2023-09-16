@@ -1,6 +1,6 @@
 ---
 title: A mind for numbers
-image: /assets/images/shubham-beeharry-223969.jpg
+image: /assets/images/brain1.png
 author: Carol Calderon
 categories:
     - work

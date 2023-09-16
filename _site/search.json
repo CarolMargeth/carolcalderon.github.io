@@ -5,7 +5,7 @@
 "title": "What is data science",
 "description": "Image Credits: Fruit LayerCarol Calderon Portfolio is a Jekyll theme suitable...",
 "url": "/blog/blackcurrant/",
-"image": "/assets/images/blackcurrant.jpg",
+"image": "/assets/images/datascience.png",
 "author": "Carol Calderon"
 }
 ,
@@ -15,7 +15,7 @@
 "title": "A mind for numbers",
 "description": "Learning is …Learn more about Barbara OackelyLearning …TitleSubtitleNoSubtitl...",
 "url": "/blog/designing-a-flag/",
-"image": "/assets/images/shubham-beeharry-223969.jpg",
+"image": "/assets/images/brain1.png",
 "author": "Carol Calderon"
 }
 
@@ -24,10 +24,20 @@
 
 {
 "category": "",
-"title": "My new project",
+"title": "World Health Sensor",
+"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia erat e...",
+"url": "/projects/design%20copy/",
+"image": "/assets/images/whsp.png",
+"author": ""
+}
+,
+
+{
+"category": "",
+"title": "ER predictor",
 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia erat e...",
 "url": "/projects/design/",
-"image": "/assets/images/etienne-girardet-360034-unsplash.jpg",
+"image": "/assets/images/er.png",
 "author": ""
 }
 

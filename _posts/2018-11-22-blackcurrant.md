@@ -1,6 +1,6 @@
 ---
 title: What is data science
-image: /assets/images/blackcurrant.jpg
+image: /assets/images/datascience.png
 author: Carol Calderon
 categories:
   - projects

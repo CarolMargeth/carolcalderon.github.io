@@ -1,6 +1,6 @@
 ---
-title: ER predictor
-image: /assets/images/er.png
+title: World Health Sensor
+image: /assets/images/whsp.png
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, voluptatibus, odio. Saepe dolorem magni qui, porro consectetur quia nobis! Doloribus mollitia id labore placeat autem cum rem, dolorum quos nesciunt.
 company: Another Company
 date:  2023-09-15
