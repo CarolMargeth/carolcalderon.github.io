@@ -18,7 +18,7 @@ prediction could help primary health services to define if the patient needs to 
 
 - Hospitals management: support decision-making regarding resources management, patient flow, and healthcare spending. Improve indicators like stay length, readmission rates, and support protocol definitions.
 
-With hospitals increasing adoption of electronic health records and data warehousing, it has been easier to apply statistical models [5]. As well as literature about is exponentially increasing the knowledge and experiences using machine learning to improve healthcare decision making..
+With hospitals increasing adoption of electronic health records and data warehousing, it has been easier to apply statistical models [5]. As well as literature about is exponentially increasing the knowledge and experiences using machine learning to improve healthcare decision making.
 
 ## Objective
 
@@ -28,7 +28,7 @@ Using machine learning, how might we predict the patient admission into the hosp
 
 This project followed the data science process described in Illustration N. 1. The dataset used in this project was originally collected and published by Hong WS, Haimovich AD, Taylor RA (2018) in their paper, 'Predicting hospital admission at emergency department triage using machine learning.'PLoS ONE 13(7): e0201016. [Data Source](https://doi.org/10.1371/journal.pone.0201016)
 
-![Alt text](/assets/images/er_ilustration_1.png) 
+![Alt text](/assets/images/er_ilustration_1.png){:class='img-responsive'} 
 
 The data was thoroughly explored, cleaned and preprocessed, before being utilized to build various models. Throughout the modelling stage were applied data balance techniques, feature selection, hyper-parameter optimization and the models were evaluated using different metrics.
 
@@ -49,7 +49,7 @@ spaces. It can handle a mix of categorical and numerical features, and it's rela
 
 All three models had almost the same accuracy score of 0.84 (correct predictions over the total number of predictions). However, the precision and sensitivity predicting admitted patients are slightly different for each model.
 
-![Alt text](/assets/images/er_ilustration_2.png) 
+![Alt text](/assets/images/er_ilustration_2.png){:class='img-responsive'} 
 
 - Baseline Logistic Regression (B.LG) has the lower sensitivity 67% predicting admission. Although, after applied balance data techniques the model sensitivity increased, this means that Opt. Log. Reg. (O.LR) could predict 81% of the total admitted patients (18% higher t•hat B.LG).
 - Random Forest (O.RF) the sensitivity is considerably lower predicting admitted patients (76%) this means the model can be missing important admitted cases, l•eading to serious consequences for the patients.
