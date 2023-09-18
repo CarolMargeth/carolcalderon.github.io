@@ -24,20 +24,20 @@
 
 {
 "category": "",
-"title": "World Health Sensor",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia erat e...",
-"url": "/projects/design%20copy/",
-"image": "/assets/images/whsp.png",
+"title": "Predicting Hospital Admission at Emergency Department Triage.",
+"description": "IntroductionEmergency departments (ED) are the hospital’s areas where it is p...",
+"url": "/projects/design/",
+"image": "/assets/images/er.png",
 "author": ""
 }
 ,
 
 {
 "category": "",
-"title": "ER predictor",
+"title": "World Health Sensor",
 "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia erat e...",
-"url": "/projects/design/",
-"image": "/assets/images/er.png",
+"url": "/projects/design%20copy/",
+"image": "/assets/images/whsp.png",
 "author": ""
 }
 
