@@ -11,10 +11,10 @@ layout: post
 
 Emergency departments (ED) are the hospital’s areas where it is provided treatment for patients with severe illnesses and life-threatening injuries 24 hours a day, 365 days a year. Emergency departments are places with high-level pressure and are fast-paced. Despite the fact that the majority of patients are discharged from the emergency department, it usually is the primary source of hospital admissions and a major source of healthcare spending [1]. Some advantages of optimizing the process of triage and admission of a patient in the emergency department are [2][3][4]:
 
-- Patients: better opportunity, safety and satisfaction. Reduce complications, adverse events, • patient morbidity and mortality.
+- Patients: better opportunity, safety and satisfaction. Reduce complications, adverse events, patient morbility and mortality.
 
 - Healthcare providers: support in decision making and not only to emergency professionals,
-prediction could help primary health services to define if the patient needs to consult the • emergency room.
+prediction could help primary health services to define if the patient needs to consult the emergency room.
 
 - Hospitals management: support decision-making regarding resources management, patient flow, and healthcare spending. Improve indicators like stay length, readmission rates, and support protocol definitions.
 
