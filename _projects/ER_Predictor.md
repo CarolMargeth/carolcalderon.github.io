@@ -1,7 +1,7 @@
 ---
-title: Predicting Hospital Admission at Emergency Department Triage.
+title: Predicting Hospital Admission at Emergency Department Triage
 image: /assets/images/er.png
-description: Predicting Hospital Admission at Emergency Department Triage.
+description: Predictive Modeling
 company: BrainStation - Capstone Project
 date:  2023-04-10
 layout: post

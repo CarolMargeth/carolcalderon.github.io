@@ -24,9 +24,9 @@
 
 {
 "category": "",
-"title": "Predicting Hospital Admission at Emergency Department Triage.",
+"title": "Predicting Hospital Admission at Emergency Department Triage",
 "description": "IntroductionEmergency departments (ED) are the hospital’s areas where it is p...",
-"url": "/projects/design/",
+"url": "/projects/ER_Predictor/",
 "image": "/assets/images/er.png",
 "author": ""
 }
@@ -35,8 +35,8 @@
 {
 "category": "",
 "title": "World Health Sensor",
-"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia erat e...",
-"url": "/projects/design%20copy/",
+"description": "ObjectiveUsing The Global Health Observatory OData API to fetch data from it’...",
+"url": "/projects/Health_Sensor/",
 "image": "/assets/images/whsp.png",
 "author": ""
 }
