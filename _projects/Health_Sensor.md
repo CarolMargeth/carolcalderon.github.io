@@ -11,21 +11,6 @@ layout: post
 
 Using The Global Health Observatory OData API to fetch data from it's data collection. Analyze the data using data science techniques and create an interactive dashboard and deploying it using cloud services.
 
-
-## Project steps
-
-1. Select the Data Source: Determine the specific API that provides the data needed for the analysis. Explore available public datasets. Determine the analysis goals.
-
-2. Understand the API: Study the documentation of the OData API to understand its endpoints, query parameters, and how to retrieve data. Identify the available resources, data models, and relationships between entities.
-
-3. Retrieve and Preprocess Data: Use the OData API to fetch the required data based on the analysis goals. Apply data preprocessing steps like cleaning, filtering, and transforming the data as necessary to prepare it for analysis.
-
-4. Analyze the Data: Utilize data science techniques and libraries such as pandas, stats to perform exploratory data analysis (EDA), statistical analysis and visualizations. Extract meaningful insights and identify patterns or correlations in the data. Select the appropriate visualization tool like Matplotlib, Seaborn, or Plotly to create interactive and informative visualizations.
-
-5. Design the application/dashboard: Design the user interface and layout of the dashboard using Dash library. Create an intuitive and user-friendly dashboard that allows users to interact with the visualizations, apply filters, and explore the data dynamically. Iterate on the design and make improvements based on user input and additional data analysis requirements.
-
-6. Deploy the Dashboard: Host the dashboard on a web server or a cloud platform to make it accessible online. This involves deploying it as a web application utilizing AWS cloud hosting services. Test and Iterate: Test the functionality and usability of the dashboard, seeking feedback from potential users.
-
 ## Project Tools
     
 Data Source: 
@@ -63,7 +48,23 @@ Test and Iterate:
 - User feedback and testing: Gather feedback from potential users and testers to improve the functionality and user experience of your dashboard.
 - Jupyter Notebook or documentation: Document the project, including the data analysis process, code, and key findings.
 
-### 1. Select the Data Source
+
+## Project steps
+
+1. Select the Data Source: Determine the specific API that provides the data needed for the analysis. Explore available public datasets. Determine the analysis goals.
+
+2. Understand the API: Study the documentation of the OData API to understand its endpoints, query parameters, and how to retrieve data. Identify the available resources, data models, and relationships between entities.
+
+3. Retrieve and Preprocess Data: Use the OData API to fetch the required data based on the analysis goals. Apply data preprocessing steps like cleaning, filtering, and transforming the data as necessary to prepare it for analysis.
+
+4. Analyze the Data: Utilize data science techniques and libraries such as pandas, stats to perform exploratory data analysis (EDA), statistical analysis and visualizations. Extract meaningful insights and identify patterns or correlations in the data. Select the appropriate visualization tool like Matplotlib, Seaborn, or Plotly to create interactive and informative visualizations.
+
+5. Design the application/dashboard: Design the user interface and layout of the dashboard using Dash library. Create an intuitive and user-friendly dashboard that allows users to interact with the visualizations, apply filters, and explore the data dynamically. Iterate on the design and make improvements based on user input and additional data analysis requirements.
+
+6. Deploy the Dashboard: Host the dashboard on a web server or a cloud platform to make it accessible online. This involves deploying it as a web application utilizing AWS cloud hosting services. Test and Iterate: Test the functionality and usability of the dashboard, seeking feedback from potential users.
+
+
+### Select the Data Source
 
 What I found exploring the GHO Data Collection:
 
@@ -73,7 +74,7 @@ What I found exploring the GHO Data Collection:
 - Indicators cover crucial health topics such as mortality, disease burden, Millennium Development Goals, non-communicable diseases, infectious diseases, health systems, environmental health, violence, injuries, and equity, among others.
 - Several indicators do not contain data or the data is not updated or completed.
 
-### 2. Understanding the API
+### Understanding the API
 
 The Global Health Observatory (GHO) is constructed using a technology called RESTful web service. REST stands for Representational State Transfer, which is an architectural style used to design networked applications. In this context, GHO uses RESTful web services as the underlying technology to provide access to its data.
 
@@ -83,11 +84,11 @@ By using a RESTful web service, the Global Health Observatory can allow users to
 
 - The documentation is clear and extensive.
 
-### 3. Retrieve and Preprocess Data: 
+### Retrieve and Preprocess Data: 
 
 Use the OData API to fetch the required data based on the analysis goals. Apply data preprocessing steps like cleaning, filtering, and transforming the data as necessary to prepare it for analysis.
 
-### 3.1 Retrieving
+#### Retrieving
 
 
 ```python
@@ -106,7 +107,7 @@ from scipy import stats
 GET request to obtain the dimension data directly from the Global Health Observatory API
 
 
-#### Retrieving all Dimension Values for Country dimension
+##### Retrieving all Dimension Values for Country dimension
 
 
 ```python
@@ -239,7 +240,7 @@ countries.head(5)
 
 
 
-#### Retrieving all Indicators (list of indicators)
+##### Retrieving all Indicators (list of indicators)
 
 
 ```python
@@ -390,7 +391,7 @@ The API is working accordingly and I am pulling the data. Nevertheless the GHO w
 Initially, I named the project the "World Health Sensor Project" because I aimed to work with reliable and comprehensive global health data. As I progressed, I narrowed my focus to tobacco-related data. However, the project has the potential for expansion to include analysis and communication of various other global health topics and indicators found in the GHO repository.
 </div>
 
-#### Retrieving Tobacco indicators
+##### Retrieving Tobacco indicators
 
  Tobacco use is indeed a significant contributor to a wide range of non-communicable diseases (NCDs) and is a leading cause of preventable illness and death worldwide. Non-communicable diseases are chronic conditions that are not caused by infectious agents but rather result from a combination of genetic, lifestyle, and environmental factors. These diseases include cardiovascular diseases (like heart disease and stroke), cancer, chronic respiratory diseases (such as chronic obstructive pulmonary disease), and diabetes. [Division of Global Health Protection, Global Health, Centers for Disease Control and Prevention]('https://www.cdc.gov/globalhealth/healthprotection/ncd/tobacco.html').
 
@@ -704,7 +705,7 @@ There are 15 indicators related with tobacco and prevalence.
 
 I used a for loop to write the urls and explore the data in all the indicators within the word 'Prevalence', the process is available in the extended version on GitHub. Finally, the indicator I found more interesting by the amount of data it provides was **M_Est_smk_curr_std == Estimate of current tobacco use prevalence (%)**
 
-#### Summarizing the indicators exploration: 
+##### Summarizing the indicators exploration: 
 
 
 
@@ -723,7 +724,7 @@ I used a for loop to write the urls and explore the data in all the indicators w
 
 
 
-#### Indicators Dataframes
+##### Indicators Dataframes
 
 
 ```python
@@ -820,11 +821,11 @@ for df in [df_M_Est_smk_curr_std, df_M_Group, df_P_Group, df_O_Group, df_W_Group
 
 As df_R_Group has less rows than the other groups, after joining I'll need to fill NaN values with zeros and make the notation is when displaying this data. Fortunately, the score goes from 1 to 6, then use 0 is not mislading.
 
-### 3.2 Prepocessing
+#### Prepocessing
 
 Keep just the columns of interest and renamed to better communication
 
-#### Countries
+##### Countries
 
 
 ```python
@@ -955,7 +956,7 @@ final_countries.head(3)
 
 
 
-#### Estimate Average Smoking Prevalence
+##### Estimate Average Smoking Prevalence
 
 
 ```python
@@ -1112,7 +1113,7 @@ final_prevalence.head(3)
 
 
 
-#### MPOWER indicators
+##### MPOWER indicators
 
 
 ```python
@@ -1136,7 +1137,7 @@ final_E = df_E_Group.loc[:, ['Country Code', 'Year', 'E_score']]
 final_R = df_R_Group.loc[:, ['Country Code', 'Year', 'R_score']]
 ```
 
-#### Premature deaths due to noncommunicable diseases (NCD) as a proportion of all NCD deaths
+##### Premature deaths due to noncommunicable diseases (NCD) as a proportion of all NCD deaths
 
 
 ```python
@@ -1293,7 +1294,7 @@ final_premature_deaths.head(3)
 
 
 
-#### Merging
+##### Merging dataframes
 
 Now concatenate the dataframes, it would be great to build just 1 dataframe. However, having some columns with more and less data, concatenating all of them would get NaN values and not option to set correct datatypes.
 
@@ -1785,7 +1786,7 @@ final_MPOWER.info()
 
 Great! Now is easier to deal with the data and build the graphs to the dashboard.
 
-### 4. Visualizations
+### Visualizations
 
 Note: Values from 2000 to 2018 are estimated based on national surveys. From 2020 to 2025 the values are projections.
 
@@ -1825,7 +1826,7 @@ fig.show()
 
 ```
 
-![sexcategory.png](attachment:sexcategory.png)
+![Alt text](https://carolmargeth.github.io/professionalwebsite/assets/images/sexcategory.png){:class="img-responsive"} 
 
 - Estimate prevalence in males is ~3 times bigger than in females group.
 - The trend in the prevalence by sex groups is to decline. The prevalence projected by 2025 is ~15% lesss than the estimation in 2020. Females are expected to have a reduction of 6% in 2025.
@@ -1866,7 +1867,7 @@ fig.update_layout(
 fig.show()
 ```
 
-![choropleth.png](attachment:choropleth.png)
+![Alt text](https://carolmargeth.github.io/professionalwebsite/assets/images/choropleth.png){:class="img-responsive"} 
 
 **Estimate Average Smoking Prevalence by WHO Region**
 
@@ -1897,7 +1898,7 @@ fig.show()
 
 ```
 
-![whoregions.png](attachment:whoregions.png)
+![Alt text](https://carolmargeth.github.io/professionalwebsite/assets/images/whoregions.png){:class="img-responsive"} 
 
 **Get country MPOWER data function**
 
@@ -2252,9 +2253,9 @@ fig.update_yaxes(range=[0, 100])
 fig.show()
 ```
 
-![scatterplot.png](attachment:scatterplot.png)
+![Alt text](https://carolmargeth.github.io/professionalwebsite/assets/images/scatterplot.png){:class="img-responsive"} 
 
-### 5. Design the Dashboard
+### Design the Application/Dashboard
 
 Now let's write the csv files to work with them in the python script where the application is going to be defined.
 
@@ -2282,7 +2283,7 @@ The dashboard provides insights into the challenges and successes of addressing 
 
 Personal comment: The subjective perception doesn't align with reality either, as it assumes that I live in a country with a low smoking prevalence. However, my personal experience contradicts this assumption, as I regularly encounter situations where I inhale secondhand smoke from individuals on the streets, which wouldn't be expected in a country with such low prevalence and really good Scores in Protecting strategy. This situation prompts me to consider the possibility that we might not be accurately measuring the actual consumption rates and policies accomplishment. Absolutely, there is a clear need for more data and dedicated efforts to address this public health issue.
 
-### 6. Deploy the Dashboard
+### Deploy the Application/Dashboard
 
 I'll start by pushing my `application.py` script and all the project files to this repository. To ensure a clean and reproducible environment, I'll include a `requirements.txt` file listing all the dependencies, including Dash and other libraries used in the project. 
 
