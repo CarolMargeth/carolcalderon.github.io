@@ -1,21 +1,11 @@
 [
 
 {
-"category": "projects",
-"title": "What is data science",
-"description": "Image Credits: Fruit LayerCarol Calderon Portfolio is a Jekyll theme suitable...",
-"url": "/blog/blackcurrant/",
-"image": "/assets/images/datascience.png",
-"author": "Carol Calderon"
-}
-,
-
-{
 "category": "work, projects",
 "title": "A mind for numbers",
-"description": "Learning is …Learn more about Barbara OackelyLearning …TitleSubtitleNoSubtitl...",
+"description": "A Mind For NumbersWe usually believe that those who work with numbers are ble...",
 "url": "/blog/designing-a-flag/",
-"image": "/assets/images/brain1.png",
+"image": "/assets/images/brain2.png",
 "author": "Carol Calderon"
 }
 
