@@ -81,7 +81,7 @@ Lastly, If you are experiencing a similar situation, consider Dra. Oakley's book
 
 ## My Favorite Book Quote
 
-![Alt text](https://carolmargeth.github.io/professionalwebsite/assets/images/Lady_lucks.png){:class="img-responsive"} 
+![Alt text](https://carolmargeth.github.io/professionalwebsite/assets/images/Lady_lucks.jpg){:class="img-responsive"} 
 
 <small>Image Credits:<a href="https://quotefancy.com/quote/2727544/Barbara-Oakley-The-Law-of-Serendipity-Lady-Luck-favors-the-one-who-tries"> Quote Fancy</a></small>
 
