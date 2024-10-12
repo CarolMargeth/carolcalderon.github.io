@@ -3,8 +3,8 @@ title: A Mind For Numbers
 image: /assets/images/brain2.png
 author: Carol Calderon
 categories:
-    - work
-    - projects
+    - Learning
+    - Mathematics
 layout: post
 ---
 

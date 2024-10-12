@@ -1,7 +1,17 @@
 [
 
 {
-"category": "work, projects",
+"category": "Big Data, Responsible AI",
+"title": "Weapons of Math Destruction",
+"description": "What is a Model/Algorithm and How It Makes DecisionsAs humans, we continuousl...",
+"url": "/blog/Weapons-of-Math-Destruction/",
+"image": "/assets/images/weapons.jpeg",
+"author": "Carol Calderon"
+}
+,
+
+{
+"category": "Learning, Mathematics",
 "title": "A Mind For Numbers",
 "description": "Breaking Free from ‘Math Brain’ StereotypesWe usually believe that those who ...",
 "url": "/blog/numbers_mind/",

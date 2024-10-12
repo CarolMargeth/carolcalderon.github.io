@@ -1,4 +1,5 @@
 # Image, name, profession in the sidebar
+# TO RUN THE WEBSITE IN LOCAL: bundle exec jekyll serve
 
 image: /assets/images/photo.png
 name: Carol Calderon
