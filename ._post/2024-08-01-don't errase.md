@@ -1,9 +1,9 @@
 ---
-title: What is data science
+title: Bridging Healthcare and Tech: How I Pivoted from Nursing to Data Science
 image: /assets/images/blackcurrant.jpg
 author: Carol Calderon
 categories:
-  - projects
+  - Career development
 layout: post
 ---
 
