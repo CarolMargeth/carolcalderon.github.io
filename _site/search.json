@@ -50,6 +50,16 @@
 "image": "/assets/images/whsp.png",
 "author": ""
 }
+,
+
+{
+"category": "",
+"title": "Style Checker App",
+"description": "Fine-tuning an LLM for Surgical DocumentationIntroductionWhen I stumbled upon...",
+"url": "/projects/project-4/",
+"image": "/assets/images/checker.png",
+"author": ""
+}
 
 
 ]
